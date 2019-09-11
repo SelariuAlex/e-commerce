@@ -8,3 +8,9 @@
   padding: 20px 60px;
   background-color: rgb(248, 244, 248);
 }
+
+@media screen and (max-width: 800px) {
+  .container {
+    padding: 5px 10px;
+  }
+}
