@@ -6,7 +6,7 @@ import { selectCurrentUser } from '../../redux/user/user.selector';
 import { auth } from '../../firebase/firebase.utils';
 import CartIcon from '../cart-icon/cart-icon.component';
 import CartDropdown from '../cart-dropdown/cart-dropdown.component';
-import { ReactComponent as Logo } from '../../assets/logo.svg';
+import { ReactComponent as Logo } from '../../assets/t-shirt.svg';
 
 import {
   HeaderContainer,
@@ -19,11 +19,11 @@ const Header = ({ currentUser, hidden }) => {
   return (
     <HeaderContainer>
       <LogoContainer to="/">
-        <Logo className="logo" />
+        <Logo className="logo" /> <span>Alex Clothing</span>
       </LogoContainer>
       <OptionsContainer>
         <OptionLink to="/shop">SHOP</OptionLink>
-        <OptionLink to="/shop">CONTACT</OptionLink>
+        {/* <OptionLink to="/shop">CONTACT</OptionLink> */}
         {currentUser ? (
           <OptionLink as="div" onClick={() => auth.signOut()}>
             SIGN OUT

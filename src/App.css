@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
-.App {
+.container {
   padding: 20px 60px;
+  background-color: rgb(248, 244, 248);
 }

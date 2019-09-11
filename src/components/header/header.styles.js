@@ -7,12 +7,20 @@ export const HeaderContainer = styled.div`
   display: flex;
   justify-content: space-between;
   margin-bottom: 25px;
+  background-color: #212121;
 `;
 
 export const LogoContainer = styled(Link)`
   height: 100%;
-  width: 70px;
+  width: 200px;
   padding: 15px;
+  margin-left: 60px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #03a9f4;
+  font-weight: bold;
+  font-size: 18px;
 `;
 
 export const OptionsContainer = styled.div`
@@ -27,5 +35,6 @@ export const OptionLink = styled(Link)`
   padding: 10px 15px;
   cursor: pointer;
   text-decoration: none;
-  color: black;
+  color: white;
+  font-weight: 700;
 `;

@@ -7,8 +7,11 @@
 
   .logo-container {
     height: 100%;
-    width: 70px;
+    width: 200px;
     padding: 15px;
+    text-decoration: none;
+    display: inline;
+    color: #03a9f4;
   }
 
   .options {
@@ -22,7 +25,7 @@
       padding: 10px 15px;
       cursor: pointer;
       text-decoration: none;
-      color: black;
+      color: #03a9f4;
     }
   }
 }
