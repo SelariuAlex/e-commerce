@@ -3,15 +3,19 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 25px;
+  background-color: #212121;
 
   .logo-container {
     height: 100%;
     width: 200px;
     padding: 15px;
+    margin-left: 60px;
+    display: flex;
+    align-items: center;
     text-decoration: none;
-    display: inline;
     color: #03a9f4;
+    font-weight: bold;
+    font-size: 18px;
   }
 
   .options {
@@ -25,7 +29,16 @@
       padding: 10px 15px;
       cursor: pointer;
       text-decoration: none;
-      color: #03a9f4;
+      color: white;
+      font-weight: 700;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    .logo-container span {
+      display: none;
     }
   }
 }
