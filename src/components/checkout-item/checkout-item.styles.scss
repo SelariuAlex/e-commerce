@@ -39,3 +39,11 @@
     cursor: pointer;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .checkout-item {
+    .image-container {
+      display: none;
+    }
+  }
+}

@@ -35,3 +35,15 @@
     width: 90%;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .checkout-page {
+    width: 100%;
+
+    .checkout-header {
+      .header-block {
+        display: none;
+      }
+    }
+  }
+}

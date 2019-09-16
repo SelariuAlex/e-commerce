@@ -9,7 +9,7 @@ const HomePage = () => {
     <div>
       <Hero />
       <div className="homepage">
-        <h1 className="homepage__title">Collections</h1>
+        <h1 className="homepage__title">Collection</h1>
         <Directory />
       </div>
     </div>
